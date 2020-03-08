@@ -1,0 +1,30 @@
+{
+  "name": "parcel-tailwindcss",
+  "version": "1.0.0",
+  "description": "Using tailwind with parcel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html -d dev --target browser --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanapeshwe/parcel-tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohanapeshwe/parcel-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/rohanapeshwe/parcel-tailwindcss#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^1.5.0",
+    "tailwindcss": "^1.2.0"
+  },
+  "dependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  }
+}
